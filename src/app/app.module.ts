@@ -7,6 +7,7 @@ import { IndexComponent } from './pages/index/index.component';
 import { UserComponent } from './pages/user/user.component';
 import { NestComponent } from './pages/nest/nest.component';
 import { EggComponent } from './pages/nest/egg/egg.component';
+import { BirdComponent } from './pages/nest/bird/bird.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EggComponent } from './pages/nest/egg/egg.component';
     IndexComponent,
     UserComponent,
     NestComponent,
-    EggComponent
+    EggComponent,
+    BirdComponent
   ],
   imports: [
     BrowserModule,
