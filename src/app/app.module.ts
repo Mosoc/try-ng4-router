@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { FirstComponent }   from './pages/first/first.component';
 import { IndexComponent } from './pages/index/index.component';
 import { UserComponent } from './pages/user/user.component';
+import { NestComponent } from './pages/nest/nest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     IndexComponent,
-    UserComponent
+    UserComponent,
+    NestComponent
   ],
   imports: [
     BrowserModule,
