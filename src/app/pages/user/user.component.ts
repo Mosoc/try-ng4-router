@@ -8,6 +8,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class UserComponent implements OnInit {
 
+  private userId: string;
   constructor(
     private route: ActivatedRoute,
     private router: Router,
@@ -16,6 +17,7 @@ export class UserComponent implements OnInit {
   ngOnInit() {
     let id = this.route.snapshot.paramMap.get('userId');
     console.log(id);
+    this.userId = id;
   }
 
 }
